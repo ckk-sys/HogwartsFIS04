@@ -1,0 +1,13 @@
+dog1:
+  -
+    name: 哈巴狗
+    color: 灰色
+    age: 10
+    gender: 男
+    hair: 卷毛
+  -
+    name: 柯基
+    color: 黄白色
+    age: 5
+    gender: 男
+    hair: 短毛
