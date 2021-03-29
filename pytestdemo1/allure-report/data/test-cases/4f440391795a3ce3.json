@@ -1,0 +1,145 @@
+{
+  "uid": "4f440391795a3ce3",
+  "name": "相加功能",
+  "fullName": "test_cal.TestCal#test_add",
+  "historyId": "4e9a7c4ded47b61a3997eb5f9d3218fa",
+  "time": {
+    "start": 1617029275163,
+    "stop": 1617029275164,
+    "duration": 1
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "get_add_datas",
+      "time": {
+        "start": 1617029275163,
+        "stop": 1617029275163,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0,
+      "stepsCount": 0,
+      "hasContent": false
+    },
+    {
+      "name": "get_calc",
+      "time": {
+        "start": 1617029275163,
+        "stop": 1617029275163,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "testStage": {
+    "status": "passed",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "58dc619feea469fc",
+        "name": "stdout",
+        "source": "58dc619feea469fc.txt",
+        "type": "text/plain",
+        "size": 32
+      }
+    ],
+    "parameters": [],
+    "shouldDisplayMessage": false,
+    "attachmentsCount": 1,
+    "stepsCount": 0,
+    "hasContent": true
+  },
+  "afterStages": [
+    {
+      "name": "get_calc::0",
+      "time": {
+        "start": 1617029275164,
+        "stop": 1617029275164,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "labels": [
+    {
+      "name": "story",
+      "value": "相加功能"
+    },
+    {
+      "name": "feature",
+      "value": "计算器功能测试"
+    },
+    {
+      "name": "suite",
+      "value": "test_cal"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCal"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-V4O258QM"
+    },
+    {
+      "name": "thread",
+      "value": "15440-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_cal"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_add_datas",
+      "value": "[1, 2, 3]"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "4f440391795a3ce3.json",
+  "parameterValues": [
+    "[1, 2, 3]"
+  ]
+}

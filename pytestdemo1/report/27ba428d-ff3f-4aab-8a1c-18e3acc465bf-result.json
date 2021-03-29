@@ -1,0 +1,65 @@
+{
+  "name": "相减功能",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert 1 == -11\n +  where 1 = <bound method Calculator.sub of <calculator.Calculator object at 0x000001DA949A6640>>(-5, -6)\n +    where <bound method Calculator.sub of <calculator.Calculator object at 0x000001DA949A6640>> = <calculator.Calculator object at 0x000001DA949A6640>.sub",
+    "trace": "self = <test_cal.TestCal object at 0x000001DA949A11F0>, get_calc = <calculator.Calculator object at 0x000001DA949A6640>, get_sub_datas = [-5, -6, -11]\n\n    @allure.story(\"相减功能\")\n    @allure.title(\"相减功能\")\n    def test_sub(self, get_calc, get_sub_datas):\n>       assert get_calc.sub(get_sub_datas[0], get_sub_datas[1]) == get_sub_datas[2]\nE       assert 1 == -11\nE        +  where 1 = <bound method Calculator.sub of <calculator.Calculator object at 0x000001DA949A6640>>(-5, -6)\nE        +    where <bound method Calculator.sub of <calculator.Calculator object at 0x000001DA949A6640>> = <calculator.Calculator object at 0x000001DA949A6640>.sub\n\ntest_cal.py:19: AssertionError"
+  },
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "5f5e5976-c54e-4132-ae61-3db7bfc3477f-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_sub_datas",
+      "value": "[-5, -6, -11]"
+    }
+  ],
+  "start": 1617029275257,
+  "stop": 1617029275257,
+  "uuid": "4cb889b7-e9e2-4058-96ca-cd0605320876",
+  "historyId": "b41ba8532c9b1e8c28008a0031854b70",
+  "testCaseId": "b6763f136b4e1155501f4d6186757ead",
+  "fullName": "test_cal.TestCal#test_sub",
+  "labels": [
+    {
+      "name": "story",
+      "value": "相减功能"
+    },
+    {
+      "name": "feature",
+      "value": "计算器功能测试"
+    },
+    {
+      "name": "suite",
+      "value": "test_cal"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCal"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-V4O258QM"
+    },
+    {
+      "name": "thread",
+      "value": "15440-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_cal"
+    }
+  ]
+}

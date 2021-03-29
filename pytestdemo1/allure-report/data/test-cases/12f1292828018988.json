@@ -1,0 +1,155 @@
+{
+  "uid": "12f1292828018988",
+  "name": "相除功能",
+  "fullName": "test_cal.TestCal#test_div",
+  "historyId": "f9a7972bd7e3a7694ec991d864f1f173",
+  "time": {
+    "start": 1617029275304,
+    "stop": 1617029275304,
+    "duration": 0
+  },
+  "status": "failed",
+  "statusMessage": "AssertionError: assert 0.5 == 3\n +  where 0.5 = <bound method Calculator.div of <calculator.Calculator object at 0x000001DA9499B940>>(1, 2)\n +    where <bound method Calculator.div of <calculator.Calculator object at 0x000001DA9499B940>> = <calculator.Calculator object at 0x000001DA9499B940>.div",
+  "statusTrace": "self = <test_cal.TestCal object at 0x000001DA9499BDC0>, get_calc = <calculator.Calculator object at 0x000001DA9499B940>, get_div_datas = [1, 2, 3]\n\n    @allure.story(\"相除功能\")\n    @allure.title(\"相除功能\")\n    def test_div(self, get_calc, get_div_datas):\n        try:\n>           assert get_calc.div(get_div_datas[0], get_div_datas[1]) == get_div_datas[2]\nE           assert 0.5 == 3\nE            +  where 0.5 = <bound method Calculator.div of <calculator.Calculator object at 0x000001DA9499B940>>(1, 2)\nE            +    where <bound method Calculator.div of <calculator.Calculator object at 0x000001DA9499B940>> = <calculator.Calculator object at 0x000001DA9499B940>.div\n\ntest_cal.py:32: AssertionError",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "get_div_datas",
+      "time": {
+        "start": 1617029275303,
+        "stop": 1617029275303,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0,
+      "stepsCount": 0,
+      "hasContent": false
+    },
+    {
+      "name": "get_calc",
+      "time": {
+        "start": 1617029275303,
+        "stop": 1617029275303,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "testStage": {
+    "status": "failed",
+    "statusMessage": "AssertionError: assert 0.5 == 3\n +  where 0.5 = <bound method Calculator.div of <calculator.Calculator object at 0x000001DA9499B940>>(1, 2)\n +    where <bound method Calculator.div of <calculator.Calculator object at 0x000001DA9499B940>> = <calculator.Calculator object at 0x000001DA9499B940>.div",
+    "statusTrace": "self = <test_cal.TestCal object at 0x000001DA9499BDC0>, get_calc = <calculator.Calculator object at 0x000001DA9499B940>, get_div_datas = [1, 2, 3]\n\n    @allure.story(\"相除功能\")\n    @allure.title(\"相除功能\")\n    def test_div(self, get_calc, get_div_datas):\n        try:\n>           assert get_calc.div(get_div_datas[0], get_div_datas[1]) == get_div_datas[2]\nE           assert 0.5 == 3\nE            +  where 0.5 = <bound method Calculator.div of <calculator.Calculator object at 0x000001DA9499B940>>(1, 2)\nE            +    where <bound method Calculator.div of <calculator.Calculator object at 0x000001DA9499B940>> = <calculator.Calculator object at 0x000001DA9499B940>.div\n\ntest_cal.py:32: AssertionError",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "d02c1b6b27273554",
+        "name": "stdout",
+        "source": "d02c1b6b27273554.txt",
+        "type": "text/plain",
+        "size": 32
+      }
+    ],
+    "parameters": [],
+    "shouldDisplayMessage": true,
+    "attachmentsCount": 1,
+    "stepsCount": 0,
+    "hasContent": true
+  },
+  "afterStages": [
+    {
+      "name": "get_calc::0",
+      "time": {
+        "start": 1617029275308,
+        "stop": 1617029275309,
+        "duration": 1
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "labels": [
+    {
+      "name": "story",
+      "value": "相除功能"
+    },
+    {
+      "name": "feature",
+      "value": "计算器功能测试"
+    },
+    {
+      "name": "suite",
+      "value": "test_cal"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCal"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-V4O258QM"
+    },
+    {
+      "name": "thread",
+      "value": "15440-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_cal"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_div_datas",
+      "value": "[1, 2, 3]"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [
+      {
+        "name": "Product defects",
+        "matchedStatuses": [],
+        "flaky": false
+      }
+    ],
+    "tags": []
+  },
+  "source": "12f1292828018988.json",
+  "parameterValues": [
+    "[1, 2, 3]"
+  ]
+}

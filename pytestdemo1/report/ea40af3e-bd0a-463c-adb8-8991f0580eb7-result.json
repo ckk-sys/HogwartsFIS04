@@ -1,0 +1,65 @@
+{
+  "name": "相加功能",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert -1 == -0.3\n +  where -1 = round(-0.7)\n +    where -0.7 = <bound method Calculator.add of <calculator.Calculator object at 0x000001DA949ABBB0>>(-0.5, -0.2)\n +      where <bound method Calculator.add of <calculator.Calculator object at 0x000001DA949ABBB0>> = <calculator.Calculator object at 0x000001DA949ABBB0>.add",
+    "trace": "self = <test_cal.TestCal object at 0x000001DA949AB940>, get_calc = <calculator.Calculator object at 0x000001DA949ABBB0>, get_add_datas = [-0.5, -0.2, -0.3]\n\n    @allure.story(\"相加功能\")\n    @allure.title(\"相加功能\")\n    def test_add(self, get_calc, get_add_datas):\n>       assert round(get_calc.add(get_add_datas[0], get_add_datas[1])) == get_add_datas[2]\nE       assert -1 == -0.3\nE        +  where -1 = round(-0.7)\nE        +    where -0.7 = <bound method Calculator.add of <calculator.Calculator object at 0x000001DA949ABBB0>>(-0.5, -0.2)\nE        +      where <bound method Calculator.add of <calculator.Calculator object at 0x000001DA949ABBB0>> = <calculator.Calculator object at 0x000001DA949ABBB0>.add\n\ntest_cal.py:13: AssertionError"
+  },
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "29a45e05-c101-49f4-8d99-9b7de55a09bd-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_add_datas",
+      "value": "[-0.5, -0.2, -0.3]"
+    }
+  ],
+  "start": 1617029275168,
+  "stop": 1617029275168,
+  "uuid": "1cf6f411-deca-45c9-8381-6be2dcd7a535",
+  "historyId": "89b993c992b0a98ef50b4c48157edf81",
+  "testCaseId": "1c6facda8ee8b0ae2011d0acc3f0d091",
+  "fullName": "test_cal.TestCal#test_add",
+  "labels": [
+    {
+      "name": "story",
+      "value": "相加功能"
+    },
+    {
+      "name": "feature",
+      "value": "计算器功能测试"
+    },
+    {
+      "name": "suite",
+      "value": "test_cal"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCal"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-V4O258QM"
+    },
+    {
+      "name": "thread",
+      "value": "15440-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_cal"
+    }
+  ]
+}

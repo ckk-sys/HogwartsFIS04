@@ -1,0 +1,282 @@
+{
+  "1bc392e33427c5c637949d46a19871b0": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "aef999a29f59b98b",
+        "status": "passed",
+        "time": {
+          "start": 1617029275252,
+          "stop": 1617029275252,
+          "duration": 0
+        }
+      }
+    ]
+  },
+  "b41ba8532c9b1e8c28008a0031854b70": {
+    "statistic": {
+      "failed": 1,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 0,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "66679964eafa8253",
+        "status": "failed",
+        "statusDetails": "AssertionError: assert 1 == -11\n +  where 1 = <bound method Calculator.sub of <calculator.Calculator object at 0x000001DA949A6640>>(-5, -6)\n +    where <bound method Calculator.sub of <calculator.Calculator object at 0x000001DA949A6640>> = <calculator.Calculator object at 0x000001DA949A6640>.sub",
+        "time": {
+          "start": 1617029275257,
+          "stop": 1617029275257,
+          "duration": 0
+        }
+      }
+    ]
+  },
+  "f0b6b7f83993af9d21515f60f8e4d8ec": {
+    "statistic": {
+      "failed": 1,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 0,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "2d9197f8ae9bb8be",
+        "status": "failed",
+        "statusDetails": "AssertionError: assert 0 == 3\n +  where 0 = <bound method Calculator.mul of <calculator.Calculator object at 0x000001DA949A1AC0>>(3, 0)\n +    where <bound method Calculator.mul of <calculator.Calculator object at 0x000001DA949A1AC0>> = <calculator.Calculator object at 0x000001DA949A1AC0>.mul",
+        "time": {
+          "start": 1617029275295,
+          "stop": 1617029275296,
+          "duration": 1
+        }
+      }
+    ]
+  },
+  "f416ce35af5bb4b4761c38dbf3ba2759": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "8512155d2f3346aa",
+        "status": "passed",
+        "time": {
+          "start": 1617029275317,
+          "stop": 1617029275317,
+          "duration": 0
+        }
+      }
+    ]
+  },
+  "f9a7972bd7e3a7694ec991d864f1f173": {
+    "statistic": {
+      "failed": 1,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 0,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "12f1292828018988",
+        "status": "failed",
+        "statusDetails": "AssertionError: assert 0.5 == 3\n +  where 0.5 = <bound method Calculator.div of <calculator.Calculator object at 0x000001DA9499B940>>(1, 2)\n +    where <bound method Calculator.div of <calculator.Calculator object at 0x000001DA9499B940>> = <calculator.Calculator object at 0x000001DA9499B940>.div",
+        "time": {
+          "start": 1617029275304,
+          "stop": 1617029275304,
+          "duration": 0
+        }
+      }
+    ]
+  },
+  "4e9a7c4ded47b61a3997eb5f9d3218fa": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "4f440391795a3ce3",
+        "status": "passed",
+        "time": {
+          "start": 1617029275163,
+          "stop": 1617029275164,
+          "duration": 1
+        }
+      }
+    ]
+  },
+  "5bc9acff4217f708241bfc8f7e594454": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "2db7f70ee91c8e61",
+        "status": "passed",
+        "time": {
+          "start": 1617029275312,
+          "stop": 1617029275312,
+          "duration": 0
+        }
+      }
+    ]
+  },
+  "725ac2fcae9e97bbc1a91f9fc51a736f": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "3fb949f6ce338d20",
+        "status": "passed",
+        "time": {
+          "start": 1617029275247,
+          "stop": 1617029275247,
+          "duration": 0
+        }
+      }
+    ]
+  },
+  "8e49deea4c9390af3e79763fd8a2e3f8": {
+    "statistic": {
+      "failed": 1,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 0,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "d1c30e3e9768073a",
+        "status": "failed",
+        "statusDetails": "AssertionError: assert 2 == 3\n +  where 2 = <bound method Calculator.mul of <calculator.Calculator object at 0x000001DA949A14C0>>(1, 2)\n +    where <bound method Calculator.mul of <calculator.Calculator object at 0x000001DA949A14C0>> = <calculator.Calculator object at 0x000001DA949A14C0>.mul",
+        "time": {
+          "start": 1617029275279,
+          "stop": 1617029275279,
+          "duration": 0
+        }
+      }
+    ]
+  },
+  "25a3ca12c73d6e79d7a205dd3c42cf43": {
+    "statistic": {
+      "failed": 1,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 0,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "66b089ba38cc6a89",
+        "status": "failed",
+        "statusDetails": "AssertionError: assert 0.1 == -0.3\n +  where 0.1 = <bound method Calculator.mul of <calculator.Calculator object at 0x000001DA949B7D90>>(-0.5, -0.2)\n +    where <bound method Calculator.mul of <calculator.Calculator object at 0x000001DA949B7D90>> = <calculator.Calculator object at 0x000001DA949B7D90>.mul",
+        "time": {
+          "start": 1617029275288,
+          "stop": 1617029275288,
+          "duration": 0
+        }
+      }
+    ]
+  },
+  "6e534d6641fb1864a166df0057af76a7": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "fd68a43ec1855541",
+        "status": "passed",
+        "time": {
+          "start": 1617029275274,
+          "stop": 1617029275274,
+          "duration": 0
+        }
+      }
+    ]
+  },
+  "89b993c992b0a98ef50b4c48157edf81": {
+    "statistic": {
+      "failed": 1,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 0,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "fab5fed51cbf1a3c",
+        "status": "failed",
+        "statusDetails": "AssertionError: assert -1 == -0.3\n +  where -1 = round(-0.7)\n +    where -0.7 = <bound method Calculator.add of <calculator.Calculator object at 0x000001DA949ABBB0>>(-0.5, -0.2)\n +      where <bound method Calculator.add of <calculator.Calculator object at 0x000001DA949ABBB0>> = <calculator.Calculator object at 0x000001DA949ABBB0>.add",
+        "time": {
+          "start": 1617029275168,
+          "stop": 1617029275168,
+          "duration": 0
+        }
+      }
+    ]
+  },
+  "280f1b65c01ce4dab38276ee63c3820b": {
+    "statistic": {
+      "failed": 1,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 0,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "c12aefa7c9324d13",
+        "status": "failed",
+        "statusDetails": "AssertionError: assert -0.5 == 0.6\n +  where -0.5 = <bound method Calculator.sub of <calculator.Calculator object at 0x000001DA9499B190>>(0.1, 0.6)\n +    where <bound method Calculator.sub of <calculator.Calculator object at 0x000001DA9499B190>> = <calculator.Calculator object at 0x000001DA9499B190>.sub",
+        "time": {
+          "start": 1617029275265,
+          "stop": 1617029275265,
+          "duration": 0
+        }
+      }
+    ]
+  }
+}

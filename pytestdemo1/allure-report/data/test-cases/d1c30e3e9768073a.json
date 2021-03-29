@@ -1,0 +1,155 @@
+{
+  "uid": "d1c30e3e9768073a",
+  "name": "相乘功能",
+  "fullName": "test_cal.TestCal#test_mul",
+  "historyId": "8e49deea4c9390af3e79763fd8a2e3f8",
+  "time": {
+    "start": 1617029275279,
+    "stop": 1617029275279,
+    "duration": 0
+  },
+  "status": "failed",
+  "statusMessage": "AssertionError: assert 2 == 3\n +  where 2 = <bound method Calculator.mul of <calculator.Calculator object at 0x000001DA949A14C0>>(1, 2)\n +    where <bound method Calculator.mul of <calculator.Calculator object at 0x000001DA949A14C0>> = <calculator.Calculator object at 0x000001DA949A14C0>.mul",
+  "statusTrace": "self = <test_cal.TestCal object at 0x000001DA9499BF70>, get_calc = <calculator.Calculator object at 0x000001DA949A14C0>, get_mul_datas = [1, 2, 3]\n\n    @allure.story(\"相乘功能\")\n    @allure.title(\"相乘功能\")\n    def test_mul(self, get_calc, get_mul_datas):\n>       assert get_calc.mul(get_mul_datas[0], get_mul_datas[1]) == get_mul_datas[2]\nE       assert 2 == 3\nE        +  where 2 = <bound method Calculator.mul of <calculator.Calculator object at 0x000001DA949A14C0>>(1, 2)\nE        +    where <bound method Calculator.mul of <calculator.Calculator object at 0x000001DA949A14C0>> = <calculator.Calculator object at 0x000001DA949A14C0>.mul\n\ntest_cal.py:25: AssertionError",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "get_calc",
+      "time": {
+        "start": 1617029275279,
+        "stop": 1617029275279,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0,
+      "stepsCount": 0,
+      "hasContent": false
+    },
+    {
+      "name": "get_mul_datas",
+      "time": {
+        "start": 1617029275279,
+        "stop": 1617029275279,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "testStage": {
+    "status": "failed",
+    "statusMessage": "AssertionError: assert 2 == 3\n +  where 2 = <bound method Calculator.mul of <calculator.Calculator object at 0x000001DA949A14C0>>(1, 2)\n +    where <bound method Calculator.mul of <calculator.Calculator object at 0x000001DA949A14C0>> = <calculator.Calculator object at 0x000001DA949A14C0>.mul",
+    "statusTrace": "self = <test_cal.TestCal object at 0x000001DA9499BF70>, get_calc = <calculator.Calculator object at 0x000001DA949A14C0>, get_mul_datas = [1, 2, 3]\n\n    @allure.story(\"相乘功能\")\n    @allure.title(\"相乘功能\")\n    def test_mul(self, get_calc, get_mul_datas):\n>       assert get_calc.mul(get_mul_datas[0], get_mul_datas[1]) == get_mul_datas[2]\nE       assert 2 == 3\nE        +  where 2 = <bound method Calculator.mul of <calculator.Calculator object at 0x000001DA949A14C0>>(1, 2)\nE        +    where <bound method Calculator.mul of <calculator.Calculator object at 0x000001DA949A14C0>> = <calculator.Calculator object at 0x000001DA949A14C0>.mul\n\ntest_cal.py:25: AssertionError",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "19abd778d869eb0a",
+        "name": "stdout",
+        "source": "19abd778d869eb0a.txt",
+        "type": "text/plain",
+        "size": 32
+      }
+    ],
+    "parameters": [],
+    "shouldDisplayMessage": true,
+    "attachmentsCount": 1,
+    "stepsCount": 0,
+    "hasContent": true
+  },
+  "afterStages": [
+    {
+      "name": "get_calc::0",
+      "time": {
+        "start": 1617029275284,
+        "stop": 1617029275284,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "labels": [
+    {
+      "name": "story",
+      "value": "相乘功能"
+    },
+    {
+      "name": "feature",
+      "value": "计算器功能测试"
+    },
+    {
+      "name": "suite",
+      "value": "test_cal"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCal"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-V4O258QM"
+    },
+    {
+      "name": "thread",
+      "value": "15440-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_cal"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_mul_datas",
+      "value": "[1, 2, 3]"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [
+      {
+        "name": "Product defects",
+        "matchedStatuses": [],
+        "flaky": false
+      }
+    ],
+    "tags": []
+  },
+  "source": "d1c30e3e9768073a.json",
+  "parameterValues": [
+    "[1, 2, 3]"
+  ]
+}

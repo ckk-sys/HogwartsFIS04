@@ -1,0 +1,65 @@
+{
+  "name": "相减功能",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert -0.5 == 0.6\n +  where -0.5 = <bound method Calculator.sub of <calculator.Calculator object at 0x000001DA9499B190>>(0.1, 0.6)\n +    where <bound method Calculator.sub of <calculator.Calculator object at 0x000001DA9499B190>> = <calculator.Calculator object at 0x000001DA9499B190>.sub",
+    "trace": "self = <test_cal.TestCal object at 0x000001DA9499BD00>, get_calc = <calculator.Calculator object at 0x000001DA9499B190>, get_sub_datas = [0.1, 0.6, 0.6]\n\n    @allure.story(\"相减功能\")\n    @allure.title(\"相减功能\")\n    def test_sub(self, get_calc, get_sub_datas):\n>       assert get_calc.sub(get_sub_datas[0], get_sub_datas[1]) == get_sub_datas[2]\nE       assert -0.5 == 0.6\nE        +  where -0.5 = <bound method Calculator.sub of <calculator.Calculator object at 0x000001DA9499B190>>(0.1, 0.6)\nE        +    where <bound method Calculator.sub of <calculator.Calculator object at 0x000001DA9499B190>> = <calculator.Calculator object at 0x000001DA9499B190>.sub\n\ntest_cal.py:19: AssertionError"
+  },
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "1dbc876c-247b-4a10-9d2c-b82fcfdc9286-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_sub_datas",
+      "value": "[0.1, 0.6, 0.6]"
+    }
+  ],
+  "start": 1617029275265,
+  "stop": 1617029275265,
+  "uuid": "4509d69d-1013-4a28-afd6-6217ba269255",
+  "historyId": "280f1b65c01ce4dab38276ee63c3820b",
+  "testCaseId": "b6763f136b4e1155501f4d6186757ead",
+  "fullName": "test_cal.TestCal#test_sub",
+  "labels": [
+    {
+      "name": "story",
+      "value": "相减功能"
+    },
+    {
+      "name": "feature",
+      "value": "计算器功能测试"
+    },
+    {
+      "name": "suite",
+      "value": "test_cal"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCal"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-V4O258QM"
+    },
+    {
+      "name": "thread",
+      "value": "15440-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_cal"
+    }
+  ]
+}

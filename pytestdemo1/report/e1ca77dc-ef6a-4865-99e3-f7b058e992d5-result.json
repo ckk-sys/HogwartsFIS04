@@ -1,0 +1,61 @@
+{
+  "name": "相减功能",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "7d669625-1e2b-4679-bc23-705a8ecbdd08-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_sub_datas",
+      "value": "[10, 9, 1]"
+    }
+  ],
+  "start": 1617029275252,
+  "stop": 1617029275252,
+  "uuid": "07c3c9e8-a41c-41d9-b000-3dc913e29fc6",
+  "historyId": "1bc392e33427c5c637949d46a19871b0",
+  "testCaseId": "b6763f136b4e1155501f4d6186757ead",
+  "fullName": "test_cal.TestCal#test_sub",
+  "labels": [
+    {
+      "name": "story",
+      "value": "相减功能"
+    },
+    {
+      "name": "feature",
+      "value": "计算器功能测试"
+    },
+    {
+      "name": "suite",
+      "value": "test_cal"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCal"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-V4O258QM"
+    },
+    {
+      "name": "thread",
+      "value": "15440-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_cal"
+    }
+  ]
+}

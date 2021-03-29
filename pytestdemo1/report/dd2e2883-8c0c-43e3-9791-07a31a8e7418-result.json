@@ -1,0 +1,65 @@
+{
+  "name": "相乘功能",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert 0.1 == -0.3\n +  where 0.1 = <bound method Calculator.mul of <calculator.Calculator object at 0x000001DA949B7D90>>(-0.5, -0.2)\n +    where <bound method Calculator.mul of <calculator.Calculator object at 0x000001DA949B7D90>> = <calculator.Calculator object at 0x000001DA949B7D90>.mul",
+    "trace": "self = <test_cal.TestCal object at 0x000001DA949B70D0>, get_calc = <calculator.Calculator object at 0x000001DA949B7D90>, get_mul_datas = [-0.5, -0.2, -0.3]\n\n    @allure.story(\"相乘功能\")\n    @allure.title(\"相乘功能\")\n    def test_mul(self, get_calc, get_mul_datas):\n>       assert get_calc.mul(get_mul_datas[0], get_mul_datas[1]) == get_mul_datas[2]\nE       assert 0.1 == -0.3\nE        +  where 0.1 = <bound method Calculator.mul of <calculator.Calculator object at 0x000001DA949B7D90>>(-0.5, -0.2)\nE        +    where <bound method Calculator.mul of <calculator.Calculator object at 0x000001DA949B7D90>> = <calculator.Calculator object at 0x000001DA949B7D90>.mul\n\ntest_cal.py:25: AssertionError"
+  },
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "d5511d50-575f-4aec-9092-fe8647c4a352-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_mul_datas",
+      "value": "[-0.5, -0.2, -0.3]"
+    }
+  ],
+  "start": 1617029275288,
+  "stop": 1617029275288,
+  "uuid": "a114a206-e8ae-45f6-a5d3-5592865f5e11",
+  "historyId": "25a3ca12c73d6e79d7a205dd3c42cf43",
+  "testCaseId": "dfbb4c3ca42e9bb24b7e04ec6d046cc2",
+  "fullName": "test_cal.TestCal#test_mul",
+  "labels": [
+    {
+      "name": "story",
+      "value": "相乘功能"
+    },
+    {
+      "name": "feature",
+      "value": "计算器功能测试"
+    },
+    {
+      "name": "suite",
+      "value": "test_cal"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCal"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-V4O258QM"
+    },
+    {
+      "name": "thread",
+      "value": "15440-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_cal"
+    }
+  ]
+}

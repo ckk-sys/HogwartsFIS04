@@ -1,0 +1,61 @@
+{
+  "name": "相加功能",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "1b3b4dec-d9f1-487a-9284-4374150c9ae3-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_add_datas",
+      "value": "[3, 0, 3]"
+    }
+  ],
+  "start": 1617029275247,
+  "stop": 1617029275247,
+  "uuid": "76c31e94-51f1-420a-aa8c-51ddb2442d17",
+  "historyId": "725ac2fcae9e97bbc1a91f9fc51a736f",
+  "testCaseId": "1c6facda8ee8b0ae2011d0acc3f0d091",
+  "fullName": "test_cal.TestCal#test_add",
+  "labels": [
+    {
+      "name": "story",
+      "value": "相加功能"
+    },
+    {
+      "name": "feature",
+      "value": "计算器功能测试"
+    },
+    {
+      "name": "suite",
+      "value": "test_cal"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCal"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-V4O258QM"
+    },
+    {
+      "name": "thread",
+      "value": "15440-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_cal"
+    }
+  ]
+}
